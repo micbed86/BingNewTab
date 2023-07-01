@@ -3,6 +3,9 @@ by micbed86
 - https://github.com/micbed86/BingNewTab
 
 
+## Screenshot:
+<img src="https://host398815.xce.pl/drive/img/img3959.png" alt="BingChatOptions">
+
 ## Description:
 
 A Chrome/Edge extension that adds a new context menu (on right-click) to the items (videos) in the section 'Related Videos' on the video playback pages of Bing Videos. In the new menu, there are two options: Open in a New Tab and Open in a New Window.
