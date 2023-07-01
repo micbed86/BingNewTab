@@ -15,15 +15,15 @@ Thanks to this extension, you can easily open related videos on Bing Videos in a
 ## INSTALLATION MANUAL
 
 ### How to install an unpacked Chrome extension
-1. Unzip the extension's ZIP file to a folder on your computer.
+1. Unzip the extension's ZIP file (downloaded from https://github.com/micbed86/BingNewTab/releases/tag/release) to a folder on your computer.
 2. Open the **Chrome browser** and navigate to `chrome://extensions`.
 3. Enable **Developer mode** by clicking the toggle switch in the top right corner.
 4. Click on the **Load unpacked** button and select the directory that contains your unzipped extension's source files.
 5. The extension will now be installed and ready to use.
 
 ### How to install an unpacked Edge extension
-1. Unzip the extension's ZIP file to a folder on your computer.
-2. Open the **Edge browser** and navigate to `edge://extensions`.
-3. Enable **Developer mode** by clicking the toggle switch in the bottom left corner.
-4. Click on the **Load unpacked** button and select the directory that contains your unzipped extension's source files.
-5. The extension will now be installed and ready to use.
+1. Unzip the extension's ZIP file (downloaded from https://github.com/micbed86/BingNewTab/releases/tag/release) to a folder on your computer.
+3. Open the **Edge browser** and navigate to `edge://extensions`.
+4. Enable **Developer mode** by clicking the toggle switch in the bottom left corner.
+5. Click on the **Load unpacked** button and select the directory that contains your unzipped extension's source files.
+6. The extension will now be installed and ready to use.
