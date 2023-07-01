@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BingNewTab</title>
+    <style>
+        body {
+            background-color: #2A2630;
+            color: #E6F8F3;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            text-align: center;
+            padding: 20px;
+        }
+        #header h1 {
+            margin: 0;
+        }
+        #header p {
+            margin: 0;
+        }
+        #header ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #header li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        #header a {
+            color: #E6F8F3;
+            text-decoration: none;
+        }
+        #header a:hover {
+            text-decoration: underline;
+        }
+        #content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #content h2, #content h3 {
+            margin-top: 40px;
+        }
+        #content p, #content ol, #content ul {
+            line-height: 1.5;
+        }
+        #language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+    <script>
+        function switchLanguage(language) {
+            var elements = document.querySelectorAll("[data-language]");
+            for (var i = 0; i < elements.length; i++) {
+                if (elements[i].getAttribute("data-language") === language) {
+                    elements[i].style.display = "block";
+                } else {
+                    elements[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+<body onload="switchLanguage('en');">
+
+    <div id="language-switcher">
+        Language:
+        <a href="#" onclick="switchLanguage('en'); return false;">English</a>,
+        <a href="#" onclick="switchLanguage('pl'); return false;">Polski</a>
+    </div>
+
+    <div id="header">
+        <h1>BingNewTab</h1>
+        <p>by micbed86</p>
+        <ul>
+            <li><a href="https://github.com/micbed86/BingNewTab">https://github.com/micbed86/BingNewTab</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+
+        <h2 data-language="en">Description:</h2>
+        <h2 data-language="pl">Opis:</h2>
+        
+        <p data-language="en">A Chrome/Edge extension that adds a new context menu (on right-click) to the items (videos) in the section 'Related Videos' on the video playback pages of Bing Videos. In the new menu, there are two options: Open in a New Tab and Open in a New Window.</p>
+        
+        <p data-language="pl">Rozszerzenie dla Chrome/Edge, które dodaje nowe menu kontekstowe (po kliknięciu prawym przyciskiem myszy) do elementów (filmów) w sekcji "Powiązane filmy" na stronach odtwarzania filmów Bing Videos. W nowym menu znajdują się dwie opcje: Otwórz w nowej karcie i Otwórz w nowym oknie.</p>
+        
+        <p data-language="en">by micbed86</p>
+        
+         <p data-language="pl">autorstwa micbed86</p>
+
+         <h2 data-language="en">HOW TO USE IT</h2>
+
+         <h2 data-language="pl">JAK Z NIEGO KORZYSTAĆ</h2>
+
+         <p data-language="en">Thanks to this extension, you can easily open related videos on Bing Videos in a new tab or window. Normally, the video playback pages on Bing Videos don’t let you open related videos in a new tab or window. With this extension, you can do this by right-clicking on the title of a video in the “Related videos” section below the main video being played. A nice little menu will appear, giving you two options: “Open in a new Tab” and “Open in a New Window”. Simply click on one of these options to open the related video in a new tab or window.</p>
+
+         <p data-dialect="pl">Dzięki temu rozszerzeniu możesz łatwo otwierać powiązane filmy na Bing Videos w nowej karcie lub oknie. Zwykle strony odtwarzania filmów na Bing Videos nie pozwalają na otwieranie powiązanych filmów w nowej karcie lub oknie. Dzięki temu rozszerzeniu możesz to zrobić, klikając prawym przyciskiem myszy na tytule filmu w sekcji „Powiązane filmy” poniżej głównego filmu, który jest odtwarzany. Pojawi się ładne małe menu, dające dwie opcje: „Otwórz w nowej karcie” i „Otwórz w nowym oknie”. Wystarczy kliknąć jedną z tych opcji, aby otworzyć powiązany film w nowej karcie lub oknie.</p>
+
+         <h2 data-language="en">INSTALLATION MANUAL</h2>
+
+         <h2 data-language="pl">INSTRUKCJA INSTALACJI</h2>
+
+         <h3 data-language="en">How to install an unpacked Chrome extension</h3>
+
+         <h3 data-language="pl">Jak zainstalować rozpakowane rozszerzenie Chrome</h3>
+
+         <ol data-language="en">
+             <li>Unzip the extension's ZIP file to a folder on your computer.</li>
+             <li>Open the Chrome browser and navigate to `chrome://extensions`.</li>
+             <li>Enable Developer mode by clicking the toggle switch in the top right corner.</li>
+             <li>Click on the Load unpacked button and select the directory that contains your unzipped extension's source files.</li>
+             <li>The extension will now be installed and ready to use.</li>
+         </ol>
+
+         <ol data-language="pl">
+             <li>Rozpakuj plik ZIP rozszerzenia do folderu na komputerze.</li>
+             <li>Otwórz przeglądarkę Chrome i przejdź do `chrome://extensions`.</li>
+             <li>Włącz tryb dewelopera, klikając przełącznik w prawym górnym rogu.</li>
+             <li>Kliknij przycisk Załaduj rozpakowane i wybierz katalog zawierający rozpakowane pliki źródłowe rozszerzenia.</li>
+             <li>Rozszerzenie zostanie teraz zainstalowane i gotowe do użycia.</li>
+         </ol>
+
+         <h3 data-language="en">How to install an unpacked Edge extension</h3>
+
+         <h3 data-language="pl">Jak zainstalować rozpakowane rozszerzenie Edge</h3>
+
+         <ol data-language="en">
+             <li>Unzip the extension's ZIP file to a folder on your computer.</li>
+             <li>Open the Edge browser and navigate to `edge://extensions`.</li>
+             <li>Enable Developer mode by clicking the toggle switch in the bottom left corner.</li>
+             <li>Click on the Load unpacked button and select the directory that contains your unzipped extension's source files.</li>
+             <li>The extension will now be installed and ready to use.</li>
+         </ol>
+
+         <ol data-language="pl">
+             <li>Rozpakuj plik ZIP rozszerzenia do folderu na komputerze.</li>
+             <li>Otwórz przeglądarkę Edge i przejdź do `edge://extensions`.</li>
+             <li>Włącz tryb dewelopera, klikając przełącznik w lewym dolnym rogu.</li>
+             <li>Kliknij przycisk Załaduj rozpakowane i wybierz katalog zawierający rozpakowane pliki źródłowe rozszerzenia.</li>
+             <li>Rozszerzenie zostanie teraz zainstalowane i gotowe do użycia.</li>
+         </ol>
+
+    </div>
+
+</body>
+</html>
